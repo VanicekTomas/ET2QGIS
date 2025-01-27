@@ -33,13 +33,13 @@ The aim is to automate selected spatial analyses and visualizations of eye-track
 - Minimum **QGIS version 3.30** and **Python 3.9.5**.
 
 ### Download the Plugin
-The plugin is available for download as a ZIP file from the [GitHub repository](https://github.com/VanicekTomas/ET2QGIS45).
+The plugin is available for download as a ZIP file from the [GitHub repository](https://github.com/VanicekTomas/ET2QGIS).
 
 ### Installation Steps
 1. Extract the ZIP file to an empty folder.
 2. Move the `et2qgis` folder to the **QGIS plugins directory**.
 3. Launch QGIS and activate the plugin in the **Manage and Install Plugins** section.
-4. Click the plugin icon to open the **ET2QGIS36 interface**.
+4. Click the plugin icon to open the **ET2QGIS interface**.
 
 ---
 
@@ -65,5 +65,5 @@ The plugin is available for download as a ZIP file from the [GitHub repository](
 
 ## More Information
 
-- [GitHub Repository](https://github.com/VanicekTomas/ET2QGIS45)
+- [GitHub Repository](https://github.com/VanicekTomas/ET2QGIS)
 - The `GUIDE.txt` file in the repository provides additional information on how to use the tool.
