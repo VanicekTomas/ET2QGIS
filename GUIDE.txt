@@ -1,0 +1,38 @@
+Tool: ET2QGIS
+
+ET2QGIS is an open-source QGIS plugin that is used to analyze eye-tracking data in a geographic information systems (GIS) environment. It was developed as a complement to the ET2Spatial tool, which converts eye movement coordinates into geographic coordinates. ET2QGIS is designed to be user-friendly and allows for easy integration and visualization of eye-tracking data.
+Its key features include:
+• Data import: Allows you to load data (SHP) from ET2Spatial, including coordinate system correction and merge data into a single layer.
+• Areas of Interest (AOI) analysis: Records information about the intersections between eye-tracking points and defined areas of interest.
+• Attribute Visualization Duration (AVD): Creates maps with proportional symbols to visualize fixation durations, helping to identify areas where users have focused the most.
+• Heatmap: Generates a raster layer showing the density of points, allowing you to visualize areas with high and low concentrations of eye-tracking points.
+
+ET2QGIS is published under the GNU GPL 3.0 license, which means that it is freely available and can be further expanded and improved.
+
+System Requirements:
+The latest version of QGIS, at least version 3.30, and Python version 3.9.5 or later must be installed before installation. Failure to comply with these requirements may cause the plugin to malfunction. If you get the error "No module named geopandas", it is recommended to update or reinstall QGIS.
+
+HOW TO USE:
+• Download plugin: The plugin ET2QGIS is available for download as a ZIP file from the GitHub repository.
+• Plugin installation:
+    1. Extracting the ZIP file: The contents of the ZIP file need to be extracted to an empty folder on your device.
+    2. Moving the plugin folder: The 'et2qgis' folder must be moved to the directory where QGIS searches for plugins. The default directories are:
+        * Windows: `%APPDATA%\Roaming\QGIS\QGIS3\profiles\default\python\plugins`
+        * Linux: `$HOME/.local/share/QGIS/QGIS3/profiles/default/python/plugins`
+    3. Starting QGIS: After launching QGIS, go to the "Plugins" and "Plugin Management & Installation" sections. You should see the 'et2qgis' plugin in the list.
+    4. Plugin Activation: Check the box next to the plugin name. Once activated, a plugin icon will appear in the main menu.
+    5. Launch the plugin: Click on the plugin icon to open the ET2QGIS interface. Next, follow the instructions in the plugin window.
+All sample data needed for testing are included in the downloaded ZIP file.
+To view the source code of the plugin, open the 'et2qgis.py' file in any text editor.
+
+Basic plugin usage:
+    1. Output directory selection: At the top of the plugin interface, select a directory to save the analysis results.
+    2. Loading input data: In the "Input and select FIX (*fixationpoints.shp) and RAW (*rawpoints.shp) features" section, upload the input shapefiles that are output by the ET2Spatial.
+    3. Naming the dataset: In the "Task dataset name" field, enter a unique name for the task.
+    4. Select operations: In the "Select operations to be performed" section, select the desired analyses or visualizations. The following are available:
+        AOI (Areas of Interest) analysis: To record information about the intersections between eye-tracking data and defined areas of interest.
+        AVD (Attribute Visualization Duration): To visualize the duration of fixations using proportional symbols.
+        Heatmap: To generate a raster layer showing the pixel density.
+        Each operation has specific parameters that need to be set.
+    5. Start analysis: Click the "Run" button to start the process. Be patient, as it may take a long time to process the data.
+Import Data: When the input SHP files are loaded, the data is automatically converted to the WGS 1984 coordinate system and merged into a single layer. New folders for "FIX data", "RAW data" and "temporary files" will also be created. Next, new columns are added to the attribute table to distinguish participants: 'MergeSrc', 'FileName', and 'PartNum'.

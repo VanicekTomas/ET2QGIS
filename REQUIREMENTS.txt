@@ -1,0 +1,13 @@
+# ETQGIS:
+QGIS==3.30
+Python==3.9.5
+geopandas
+OS Windows or Linux
+
+# ET2Spatial:
+PyQt5-Qt5==5.15.2
+numpy
+pandas
+xmltodict==0.12.0
+geojson==2.5.0
+pyshp==2.1.3

@@ -1,0 +1,908 @@
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20171214</CreaDate>
+		<CreaTime>03225900</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<ArcGISstyle>ISO 19139 Metadata Implementation Specification</ArcGISstyle>
+		<SyncOnce>FALSE</SyncOnce>
+		<scaleRange>
+			<minScale>150000000</minScale>
+			<maxScale>5000</maxScale>
+		</scaleRange>
+		<DataProperties>
+			<itemProps>
+				<imsContentType export="False"/>
+				<itemName Sync="TRUE">czechia</itemName>
+				<nativeExtBox>
+					<westBL Sync="TRUE">12.090760</westBL>
+					<eastBL Sync="TRUE">18.862534</eastBL>
+					<southBL Sync="TRUE">48.540840</southBL>
+					<northBL Sync="TRUE">51.055691</northBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</nativeExtBox>
+				<itemSize Sync="TRUE">0.000</itemSize>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\VANICEK\C$\VANICEK\A_PROJEKTY\Skript_ET2QGIS\SampleData\AOI\czechia.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+			</itemProps>
+			<coordRef>
+				<type Sync="TRUE">Geographic</type>
+				<geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn>
+				<csUnits Sync="TRUE">Angular Unit: Degree (0.017453)</csUnits>
+				<peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.1.0'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137.0,298.257223563]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],AUTHORITY[&amp;quot;EPSG&amp;quot;,4326]]&lt;/WKT&gt;&lt;XOrigin&gt;-400&lt;/XOrigin&gt;&lt;YOrigin&gt;-400&lt;/YOrigin&gt;&lt;XYScale&gt;11258999068426.238&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.983152841195215e-09&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4326&lt;/WKID&gt;&lt;LatestWKID&gt;4326&lt;/LatestWKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml>
+			</coordRef>
+			<lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\ExportFeatures" Date="20231106" Time="121140">ExportFeatures CZE_adm0 C:\VANICEK\A_PROJEKTY\Skript_ET2QGIS\SampleData\AOI\czechia.shp # NOT_USE_ALIAS "ID_0 "ID_0" true true false 10 Long 0 10,First,#,CZE_adm0,ID_0,-1,-1;ISO "ISO" true true false 3 Text 0 0,First,#,CZE_adm0,ISO,0,3;NAME_ENGLI "NAME_ENGLI" true true false 50 Text 0 0,First,#,CZE_adm0,NAME_ENGLI,0,50;NAME_ISO "NAME_ISO" true true false 54 Text 0 0,First,#,CZE_adm0,NAME_ISO,0,54;NAME_FAO "NAME_FAO" true true false 50 Text 0 0,First,#,CZE_adm0,NAME_FAO,0,50;NAME_LOCAL "NAME_LOCAL" true true false 54 Text 0 0,First,#,CZE_adm0,NAME_LOCAL,0,54;NAME_OBSOL "NAME_OBSOL" true true false 150 Text 0 0,First,#,CZE_adm0,NAME_OBSOL,0,150;NAME_VARIA "NAME_VARIA" true true false 160 Text 0 0,First,#,CZE_adm0,NAME_VARIA,0,160;NAME_NONLA "NAME_NONLA" true true false 50 Text 0 0,First,#,CZE_adm0,NAME_NONLA,0,50;NAME_FRENC "NAME_FRENC" true true false 50 Text 0 0,First,#,CZE_adm0,NAME_FRENC,0,50;NAME_SPANI "NAME_SPANI" true true false 50 Text 0 0,First,#,CZE_adm0,NAME_SPANI,0,50;NAME_RUSSI "NAME_RUSSI" true true false 50 Text 0 0,First,#,CZE_adm0,NAME_RUSSI,0,50;NAME_ARABI "NAME_ARABI" true true false 50 Text 0 0,First,#,CZE_adm0,NAME_ARABI,0,50;NAME_CHINE "NAME_CHINE" true true false 50 Text 0 0,First,#,CZE_adm0,NAME_CHINE,0,50;WASPARTOF "WASPARTOF" true true false 100 Text 0 0,First,#,CZE_adm0,WASPARTOF,0,100;CONTAINS "CONTAINS" true true false 50 Text 0 0,First,#,CZE_adm0,CONTAINS,0,50;SOVEREIGN "SOVEREIGN" true true false 40 Text 0 0,First,#,CZE_adm0,SOVEREIGN,0,40;ISO2 "ISO2" true true false 4 Text 0 0,First,#,CZE_adm0,ISO2,0,4;WWW "WWW" true true false 2 Text 0 0,First,#,CZE_adm0,WWW,0,2;FIPS "FIPS" true true false 6 Text 0 0,First,#,CZE_adm0,FIPS,0,6;ISON "ISON" true true false 19 Double 0 0,First,#,CZE_adm0,ISON,-1,-1;VALIDFR "VALIDFR" true true false 12 Text 0 0,First,#,CZE_adm0,VALIDFR,0,12;VALIDTO "VALIDTO" true true false 10 Text 0 0,First,#,CZE_adm0,VALIDTO,0,10;POP2000 "POP2000" true true false 19 Double 0 0,First,#,CZE_adm0,POP2000,-1,-1;SQKM "SQKM" true true false 19 Double 0 0,First,#,CZE_adm0,SQKM,-1,-1;POPSQKM "POPSQKM" true true false 19 Double 0 0,First,#,CZE_adm0,POPSQKM,-1,-1;UNREGION1 "UNREGION1" true true false 254 Text 0 0,First,#,CZE_adm0,UNREGION1,0,254;UNREGION2 "UNREGION2" true true false 254 Text 0 0,First,#,CZE_adm0,UNREGION2,0,254;DEVELOPING "DEVELOPING" true true false 19 Double 0 0,First,#,CZE_adm0,DEVELOPING,-1,-1;CIS "CIS" true true false 19 Double 0 0,First,#,CZE_adm0,CIS,-1,-1;Transition "Transition" true true false 19 Double 0 0,First,#,CZE_adm0,Transition,-1,-1;OECD "OECD" true true false 19 Double 0 0,First,#,CZE_adm0,OECD,-1,-1;WBREGION "WBREGION" true true false 254 Text 0 0,First,#,CZE_adm0,WBREGION,0,254;WBINCOME "WBINCOME" true true false 254 Text 0 0,First,#,CZE_adm0,WBINCOME,0,254;WBDEBT "WBDEBT" true true false 254 Text 0 0,First,#,CZE_adm0,WBDEBT,0,254;WBOTHER "WBOTHER" true true false 254 Text 0 0,First,#,CZE_adm0,WBOTHER,0,254;CEEAC "CEEAC" true true false 19 Double 0 0,First,#,CZE_adm0,CEEAC,-1,-1;CEMAC "CEMAC" true true false 19 Double 0 0,First,#,CZE_adm0,CEMAC,-1,-1;CEPLG "CEPLG" true true false 19 Double 0 0,First,#,CZE_adm0,CEPLG,-1,-1;COMESA "COMESA" true true false 19 Double 0 0,First,#,CZE_adm0,COMESA,-1,-1;EAC "EAC" true true false 19 Double 0 0,First,#,CZE_adm0,EAC,-1,-1;ECOWAS "ECOWAS" true true false 19 Double 0 0,First,#,CZE_adm0,ECOWAS,-1,-1;IGAD "IGAD" true true false 19 Double 0 0,First,#,CZE_adm0,IGAD,-1,-1;IOC "IOC" true true false 19 Double 0 0,First,#,CZE_adm0,IOC,-1,-1;MRU "MRU" true true false 19 Double 0 0,First,#,CZE_adm0,MRU,-1,-1;SACU "SACU" true true false 19 Double 0 0,First,#,CZE_adm0,SACU,-1,-1;UEMOA "UEMOA" true true false 19 Double 0 0,First,#,CZE_adm0,UEMOA,-1,-1;UMA "UMA" true true false 19 Double 0 0,First,#,CZE_adm0,UMA,-1,-1;PALOP "PALOP" true true false 19 Double 0 0,First,#,CZE_adm0,PALOP,-1,-1;PARTA "PARTA" true true false 19 Double 0 0,First,#,CZE_adm0,PARTA,-1,-1;CACM "CACM" true true false 19 Double 0 0,First,#,CZE_adm0,CACM,-1,-1;EurAsEC "EurAsEC" true true false 19 Double 0 0,First,#,CZE_adm0,EurAsEC,-1,-1;Agadir "Agadir" true true false 19 Double 0 0,First,#,CZE_adm0,Agadir,-1,-1;SAARC "SAARC" true true false 19 Double 0 0,First,#,CZE_adm0,SAARC,-1,-1;ASEAN "ASEAN" true true false 19 Double 0 0,First,#,CZE_adm0,ASEAN,-1,-1;NAFTA "NAFTA" true true false 19 Double 0 0,First,#,CZE_adm0,NAFTA,-1,-1;GCC "GCC" true true false 19 Double 0 0,First,#,CZE_adm0,GCC,-1,-1;CSN "CSN" true true false 19 Double 0 0,First,#,CZE_adm0,CSN,-1,-1;CARICOM "CARICOM" true true false 19 Double 0 0,First,#,CZE_adm0,CARICOM,-1,-1;EU "EU" true true false 19 Double 0 0,First,#,CZE_adm0,EU,-1,-1;CAN "CAN" true true false 19 Double 0 0,First,#,CZE_adm0,CAN,-1,-1;ACP "ACP" true true false 19 Double 0 0,First,#,CZE_adm0,ACP,-1,-1;Landlocked "Landlocked" true true false 19 Double 0 0,First,#,CZE_adm0,Landlocked,-1,-1;AOSIS "AOSIS" true true false 19 Double 0 0,First,#,CZE_adm0,AOSIS,-1,-1;SIDS "SIDS" true true false 19 Double 0 0,First,#,CZE_adm0,SIDS,-1,-1;Islands "Islands" true true false 19 Double 0 0,First,#,CZE_adm0,Islands,-1,-1;LDC "LDC" true true false 19 Double 0 0,First,#,CZE_adm0,LDC,-1,-1" #</Process></lineage></DataProperties>
+		<ArcGISProfile>ISO19139</ArcGISProfile>
+		<ModDate>20231106</ModDate>
+		<ModTime>12114000</ModTime>
+		<SyncDate>20231106</SyncDate>
+		<SyncTime>12114000</SyncTime>
+	</Esri>
+	<mdHrLv>
+		<ScopeCd value="005"/>
+	</mdHrLv>
+	<dataIdInfo>
+		<idCitation>
+			<citRespParty>
+				<role>
+					<RoleCd value="006"/>
+				</role>
+				<rpIndName>Hijmans, Robert J.</rpIndName>
+			</citRespParty>
+			<citRespParty>
+				<rpOrgName>University of California, Berkeley. Museum of Vertebrate Zoology</rpOrgName>
+				<role>
+					<RoleCd value="010"/>
+				</role>
+				<rpCntInfo>
+					<cntAddress addressType="">
+						<city>Berkeley</city>
+						<adminArea>CA</adminArea>
+						<country>US</country>
+					</cntAddress>
+				</rpCntInfo>
+			</citRespParty>
+			<resTitle>Boundary, Czech Republic, 2015</resTitle>
+			<collTitle>Global administrative areas</collTitle>
+			<date>
+				<pubDate>2015-11-01T00:00:00</pubDate>
+			</date>
+			<otherCitDet>These data were retrieved from &lt;&lt;http://www.gadm.org&gt;&gt; on December 1, 2017.</otherCitDet>
+			<resEd>2.8</resEd>
+			<citRespParty>
+				<rpOrgName>University of California, Berkeley. Museum of Vertebrate Zoology</rpOrgName>
+				<role>
+					<RoleCd value="006"/>
+				</role>
+			</citRespParty>
+			<citId>
+				<identCode>http://purl.stanford.edu/pc593vv9067</identCode>
+			</citId>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"/>
+			</presForm>
+		</idCitation>
+		<themeKeys>
+			<thesaName>
+				<resTitle>lcsh</resTitle>
+				<citId>
+					<identCode>http://id.loc.gov/authorities/subjects.html</identCode>
+				</citId>
+			</thesaName>
+			<keyword>Administrative and political divisions</keyword>
+		</themeKeys>
+		<placeKeys>
+			<thesaName>
+				<resTitle>geonames</resTitle>
+				<citId>
+					<identCode>http://www.geonames.org/ontology#</identCode>
+				</citId>
+			</thesaName>
+			<keyword>Czech Republic</keyword>
+		</placeKeys>
+		<dataExt>
+			<exDesc>publication date</exDesc>
+			<geoEle/>
+		</dataExt>
+		<aggrInfo>
+			<assocType>
+				<AscTypeCd value="002"/>
+			</assocType>
+			<initType>
+				<InitTypCd value="002"/>
+			</initType>
+			<aggrDSName>
+				<resTitle>Global administrative areas</resTitle>
+				<citId>
+					<identCode>http://purl.stanford.edu/jv457hb9421</identCode>
+				</citId>
+			</aggrDSName>
+		</aggrInfo>
+		<dataChar>
+			<CharSetCd value="004"/>
+		</dataChar>
+		<idCredit>Hijmans, R. and University of California, Berkeley, Museum of Vertebrate Zoology. (2015). Boundary, Czech Republic, 2015. UC Berkeley, Museum of Vertebrate Zoology. Available at: http://purl.stanford.edu/pc593vv9067</idCredit>
+		<idPoC>
+			<rpOrgName>University of Minnesota. Institute on the Environment</rpOrgName>
+			<role>
+				<RoleCd value="007"/>
+			</role>
+			<rpCntInfo>
+				<cntAddress addressType="">
+					<city>St. Paul</city>
+					<adminArea>MN</adminArea>
+					<eMailAdd>earthstat.data@gmail.com</eMailAdd>
+					<country>US</country>
+				</cntAddress>
+			</rpCntInfo>
+		</idPoC>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="012"/>
+			</maintFreq>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="001"/>
+		</idStatus>
+		<resConst>
+			<LegConsts>
+				<useConsts>
+					<RestrictCd value="008"/>
+				</useConsts>
+				<othConsts>Attribution 3.0 Unported. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</othConsts>
+			</LegConsts>
+		</resConst>
+		<idAbs>This polygon shapefile contains the boundary of Czech Republic (adm0). This layer is part of the Global Administrative Areas 2015 (v2.8) dataset.</idAbs>
+		<tpCat>
+			<TopicCatCd value="003"/>
+		</tpCat>
+		<envirDesc Sync="TRUE">Microsoft Windows 10 Version 10.0 (Build 19045) ; Esri ArcGIS 13.1.3.41833</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="ces"/>
+			<countryCode Sync="TRUE" value="CZE"/>
+		</dataLang>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"/>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="search">
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<westBL Sync="TRUE">12.090760</westBL>
+					<eastBL Sync="TRUE">18.862534</eastBL>
+					<northBL Sync="TRUE">51.055691</northBL>
+					<southBL Sync="TRUE">48.540840</southBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+	</dataIdInfo>
+	<mdParentID>http://purl.stanford.edu/jv457hb9421.mods</mdParentID>
+	<mdChar>
+		<CharSetCd value="004"/>
+	</mdChar>
+	<distInfo>
+		<distributor>
+			<distorCont>
+				<editorSource>external</editorSource>
+				<editorDigest>8112593d10cd6aa7c8f3c3da6c3533d0</editorDigest>
+				<rpOrgName>Stanford Geospatial Center</rpOrgName>
+				<rpCntInfo>
+					<cntAddress addressType="both">
+						<delPoint>Mitchell Bldg. 2nd floor</delPoint>
+						<city>Stanford</city>
+						<adminArea>California</adminArea>
+						<postCode>94305</postCode>
+						<eMailAdd>brannerlibrary@stanford.edu</eMailAdd>
+						<country>US</country>
+						<delPoint>397 Panama Mall</delPoint>
+					</cntAddress>
+					<cntPhone>
+						<voiceNum tddtty="">650-723-2746</voiceNum>
+					</cntPhone>
+				</rpCntInfo>
+				<displayName>Stanford Geospatial Center</displayName>
+				<displayName>Stanford Geospatial Center</displayName>
+				<editorSave>True</editorSave>
+				<displayName>Stanford Geospatial Center</displayName>
+				<role>
+					<RoleCd value="005"/>
+				</role>
+			</distorCont>
+		</distributor>
+		<distTranOps>
+			<onLineSrc>
+				<linkage>http://purl.stanford.edu/pc593vv9067</linkage>
+				<protocol>http</protocol>
+				<orName>CZE_adm0.shp</orName>
+			</onLineSrc>
+			<transSize Sync="TRUE">0.000</transSize>
+		</distTranOps>
+		<distFormat>
+			<formatName Sync="TRUE">Shapefile</formatName>
+		</distFormat>
+	</distInfo>
+	<mdFileID>edu.stanford.purl:pc593vv9067</mdFileID>
+	<dataSetURI>http://purl.stanford.edu/pc593vv9067</dataSetURI>
+	<mdContact>
+		<editorSource>external</editorSource>
+		<editorDigest>8112593d10cd6aa7c8f3c3da6c3533d0</editorDigest>
+		<rpOrgName>Stanford Geospatial Center</rpOrgName>
+		<rpCntInfo>
+			<cntAddress addressType="both">
+				<delPoint>Mitchell Bldg. 2nd floor</delPoint>
+				<city>Stanford</city>
+				<adminArea>California</adminArea>
+				<postCode>94305</postCode>
+				<eMailAdd>brannerlibrary@stanford.edu</eMailAdd>
+				<country>US</country>
+				<delPoint>397 Panama Mall</delPoint>
+			</cntAddress>
+			<cntPhone>
+				<voiceNum tddtty="">650-723-2746</voiceNum>
+			</cntPhone>
+		</rpCntInfo>
+		<displayName>Stanford Geospatial Center</displayName>
+		<displayName>Stanford Geospatial Center</displayName>
+		<editorSave>True</editorSave>
+		<displayName>Stanford Geospatial Center</displayName>
+		<role>
+			<RoleCd value="007"/>
+		</role>
+	</mdContact>
+	<Binary>
+		<Thumbnail>
+			<Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqpc6p
+Y2jMk11Csq/8st43k4yAF6knsKqyXepzbxBaRwIylVaaQb1b+9hcgj2z+VROpCHxOw0rmrVaXUbO
+GQxyXUQkHVN4Lfl1qp9gVuXuLtjjBP2l1z+CkCpre3itYvLhUhcljkkkknJJJ5J9zXHLHxt7qK5D
+Mv4ptQ1K3uLcXXkx4VlcmJTzkkchwfwIOAPepi0+l3sbJ50tjJxJukklZG67ujHHGOuOe2K0qK5f
+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</Data>
+		</Thumbnail>
+	</Binary>
+	<mdDateSt Sync="TRUE">20231106</mdDateSt>
+	<mdLang>
+		<languageCode Sync="TRUE" value="ces"/>
+		<countryCode Sync="TRUE" value="CZE"/>
+	</mdLang>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE" code="4326"/>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+				<idVersion Sync="TRUE">6.2(3.0.1)</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep><geometObjs Name="czechia"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo>
+	<spdoinfo>
+		<ptvctinf><esriterm Name="czechia"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<eainfo>
+		<detailed Name="czechia">
+			<enttyp>
+				<enttypl Sync="TRUE">czechia</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ID_0</attrlabl>
+				<attalias Sync="TRUE">ID_0</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ISO</attrlabl>
+				<attalias Sync="TRUE">ISO</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_ENGLI</attrlabl>
+				<attalias Sync="TRUE">NAME_ENGLI</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_ISO</attrlabl>
+				<attalias Sync="TRUE">NAME_ISO</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">54</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_FAO</attrlabl>
+				<attalias Sync="TRUE">NAME_FAO</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_LOCAL</attrlabl>
+				<attalias Sync="TRUE">NAME_LOCAL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">54</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_OBSOL</attrlabl>
+				<attalias Sync="TRUE">NAME_OBSOL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_VARIA</attrlabl>
+				<attalias Sync="TRUE">NAME_VARIA</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">160</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_NONLA</attrlabl>
+				<attalias Sync="TRUE">NAME_NONLA</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_FRENC</attrlabl>
+				<attalias Sync="TRUE">NAME_FRENC</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_SPANI</attrlabl>
+				<attalias Sync="TRUE">NAME_SPANI</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_RUSSI</attrlabl>
+				<attalias Sync="TRUE">NAME_RUSSI</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_ARABI</attrlabl>
+				<attalias Sync="TRUE">NAME_ARABI</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME_CHINE</attrlabl>
+				<attalias Sync="TRUE">NAME_CHINE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WASPARTOF</attrlabl>
+				<attalias Sync="TRUE">WASPARTOF</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CONTAINS</attrlabl>
+				<attalias Sync="TRUE">CONTAINS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SOVEREIGN</attrlabl>
+				<attalias Sync="TRUE">SOVEREIGN</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ISO2</attrlabl>
+				<attalias Sync="TRUE">ISO2</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WWW</attrlabl>
+				<attalias Sync="TRUE">WWW</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FIPS</attrlabl>
+				<attalias Sync="TRUE">FIPS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">6</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ISON</attrlabl>
+				<attalias Sync="TRUE">ISON</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">VALIDFR</attrlabl>
+				<attalias Sync="TRUE">VALIDFR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">12</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">VALIDTO</attrlabl>
+				<attalias Sync="TRUE">VALIDTO</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP2000</attrlabl>
+				<attalias Sync="TRUE">POP2000</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SQKM</attrlabl>
+				<attalias Sync="TRUE">SQKM</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POPSQKM</attrlabl>
+				<attalias Sync="TRUE">POPSQKM</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">UNREGION1</attrlabl>
+				<attalias Sync="TRUE">UNREGION1</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">UNREGION2</attrlabl>
+				<attalias Sync="TRUE">UNREGION2</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DEVELOPING</attrlabl>
+				<attalias Sync="TRUE">DEVELOPING</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CIS</attrlabl>
+				<attalias Sync="TRUE">CIS</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Transition</attrlabl>
+				<attalias Sync="TRUE">Transition</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OECD</attrlabl>
+				<attalias Sync="TRUE">OECD</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WBREGION</attrlabl>
+				<attalias Sync="TRUE">WBREGION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WBINCOME</attrlabl>
+				<attalias Sync="TRUE">WBINCOME</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WBDEBT</attrlabl>
+				<attalias Sync="TRUE">WBDEBT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">WBOTHER</attrlabl>
+				<attalias Sync="TRUE">WBOTHER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CEEAC</attrlabl>
+				<attalias Sync="TRUE">CEEAC</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CEMAC</attrlabl>
+				<attalias Sync="TRUE">CEMAC</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CEPLG</attrlabl>
+				<attalias Sync="TRUE">CEPLG</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COMESA</attrlabl>
+				<attalias Sync="TRUE">COMESA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EAC</attrlabl>
+				<attalias Sync="TRUE">EAC</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ECOWAS</attrlabl>
+				<attalias Sync="TRUE">ECOWAS</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">IGAD</attrlabl>
+				<attalias Sync="TRUE">IGAD</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">IOC</attrlabl>
+				<attalias Sync="TRUE">IOC</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MRU</attrlabl>
+				<attalias Sync="TRUE">MRU</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SACU</attrlabl>
+				<attalias Sync="TRUE">SACU</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">UEMOA</attrlabl>
+				<attalias Sync="TRUE">UEMOA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">UMA</attrlabl>
+				<attalias Sync="TRUE">UMA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PALOP</attrlabl>
+				<attalias Sync="TRUE">PALOP</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARTA</attrlabl>
+				<attalias Sync="TRUE">PARTA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CACM</attrlabl>
+				<attalias Sync="TRUE">CACM</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EurAsEC</attrlabl>
+				<attalias Sync="TRUE">EurAsEC</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Agadir</attrlabl>
+				<attalias Sync="TRUE">Agadir</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SAARC</attrlabl>
+				<attalias Sync="TRUE">SAARC</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ASEAN</attrlabl>
+				<attalias Sync="TRUE">ASEAN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAFTA</attrlabl>
+				<attalias Sync="TRUE">NAFTA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">GCC</attrlabl>
+				<attalias Sync="TRUE">GCC</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CSN</attrlabl>
+				<attalias Sync="TRUE">CSN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CARICOM</attrlabl>
+				<attalias Sync="TRUE">CARICOM</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EU</attrlabl>
+				<attalias Sync="TRUE">EU</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CAN</attrlabl>
+				<attalias Sync="TRUE">CAN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ACP</attrlabl>
+				<attalias Sync="TRUE">ACP</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Landlocked</attrlabl>
+				<attalias Sync="TRUE">Landlocked</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AOSIS</attrlabl>
+				<attalias Sync="TRUE">AOSIS</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SIDS</attrlabl>
+				<attalias Sync="TRUE">SIDS</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Islands</attrlabl>
+				<attalias Sync="TRUE">Islands</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LDC</attrlabl>
+				<attalias Sync="TRUE">LDC</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<contInfo>
+		<FetCatDesc>
+			<compCode>False</compCode>
+			<catLang>
+				<languageCode value="eng"/>
+			</catLang>
+			<incWithDS>True</incWithDS>
+			<catCitation>
+				<resTitle>Entity and Attribute Information</resTitle>
+				<citId>
+					<identCode>871d590c-f9b9-4933-b217-b16f911b52c9</identCode>
+				</citId>
+			</catCitation>
+		</FetCatDesc>
+	</contInfo>
+</metadata>
